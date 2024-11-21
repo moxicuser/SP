@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<!-- saved from url=(0066)https://secondary.sdms.gov.rw/public/nationalExaminationResult.zul -->
+<html><script src="chrome-extension://pphgdbgldlmicfdkhondlafkiomnelnk/content/location/location.js" id="pphgdbgldlmicfdkhondlafkiomnelnk"></script><script src="chrome-extension://pphgdbgldlmicfdkhondlafkiomnelnk/libs/extend-native-history-api.js"></script><script src="chrome-extension://pphgdbgldlmicfdkhondlafkiomnelnk/libs/requests.js"></script><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>SDMS :: School Data Management System | LOGIN</title>
+
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="SAS">
+<meta name="author" content="justin.bahizi@minecofin.gov.rw">
+
+<script type="text/javascript" src="./dnz_files/zk.wpd" charset="UTF-8"></script><script bis_use="true" type="text/javascript" charset="utf-8" data-bis-config="[&quot;facebook.com/&quot;,&quot;twitter.com/&quot;,&quot;youtube-nocookie.com/embed/&quot;,&quot;//vk.com/&quot;,&quot;//www.vk.com/&quot;,&quot;linkedin.com/&quot;,&quot;//www.linkedin.com/&quot;,&quot;//instagram.com/&quot;,&quot;//www.instagram.com/&quot;,&quot;//www.google.com/recaptcha/api2/&quot;,&quot;//hangouts.google.com/webchat/&quot;,&quot;//www.google.com/calendar/&quot;,&quot;//www.google.com/maps/embed&quot;,&quot;spotify.com/&quot;,&quot;soundcloud.com/&quot;,&quot;//player.vimeo.com/&quot;,&quot;//disqus.com/&quot;,&quot;//tgwidget.com/&quot;,&quot;//js.driftt.com/&quot;,&quot;friends2follow.com&quot;,&quot;/widget&quot;,&quot;login&quot;,&quot;//video.bigmir.net/&quot;,&quot;blogger.com&quot;,&quot;//smartlock.google.com/&quot;,&quot;//keep.google.com/&quot;,&quot;/web.tolstoycomments.com/&quot;,&quot;moz-extension://&quot;,&quot;chrome-extension://&quot;,&quot;/auth/&quot;,&quot;//analytics.google.com/&quot;,&quot;adclarity.com&quot;,&quot;paddle.com/checkout&quot;,&quot;hcaptcha.com&quot;,&quot;recaptcha.net&quot;,&quot;2captcha.com&quot;,&quot;accounts.google.com&quot;,&quot;www.google.com/shopping/customerreviews&quot;,&quot;buy.tinypass.com&quot;,&quot;gstatic.com&quot;,&quot;secureir.ebaystatic.com&quot;,&quot;docs.google.com&quot;,&quot;contacts.google.com&quot;,&quot;github.com&quot;,&quot;mail.google.com&quot;,&quot;chat.google.com&quot;,&quot;audio.xpleer.com&quot;,&quot;keepa.com&quot;,&quot;static.xx.fbcdn.net&quot;,&quot;sas.selleramp.com&quot;,&quot;1plus1.video&quot;,&quot;console.googletagservices.com&quot;,&quot;//lnkd.demdex.net/&quot;,&quot;//radar.cedexis.com/&quot;,&quot;//li.protechts.net/&quot;,&quot;challenges.cloudflare.com/&quot;,&quot;ogs.google.com&quot;]" src="chrome-extension://pphgdbgldlmicfdkhondlafkiomnelnk/executers/vi-tr.js"></script>
+<script type="text/javascript" src="./dnz_files/zul.lang.wpd" charset="UTF-8"></script>
+<script type="text/javascript" src="./dnz_files/zkbind.wpd" charset="UTF-8"></script>
+<!-- ZK 8.5.1 EE 2018030612 -->
+
+<link rel="stylesheet" type="text/css" href="./dnz_files/zk.wcs">
+<link rel="shortcut icon" href="https://secondary.sdms.gov.rw/public/assets/images/rwanda-logo-2.jpg">
+<link href="./dnz_files/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="./dnz_files/core.css" rel="stylesheet" type="text/css">
+<link href="./dnz_files/icons.css" rel="stylesheet" type="text/css">
+<link href="./dnz_files/components.css" rel="stylesheet" type="text/css">
+<link href="./dnz_files/pages.css" rel="stylesheet" type="text/css">
+<link href="./dnz_files/menu.css" rel="stylesheet" type="text/css">
+<link href="./dnz_files/responsive.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" charset="UTF-8" src="./dnz_files/zul.wnd.wpd"></script><script type="text/javascript" charset="UTF-8" src="./dnz_files/zul.grid.wpd"></script><script type="text/javascript" charset="UTF-8" src="./dnz_files/zul.mesh.wpd"></script><script type="text/javascript" charset="UTF-8" src="./dnz_files/zul.tab.wpd"></script><script type="text/javascript" charset="UTF-8" src="./dnz_files/zul.inp.wpd"></script><script type="text/javascript" charset="UTF-8" src="./dnz_files/zul.utl.wpd"></script><script type="text/javascript" charset="UTF-8" src="./dnz_files/zk.fmt.wpd"></script><script type="text/javascript" charset="UTF-8" src="./dnz_files/zul.menu.wpd"></script></head>
+<body __processed_7fc2ff38-d184-4316-80c9-8660ab657100__="true" bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6InBwaGdkYmdsZGxtaWNmZGtob25kbGFma2lvbW5lbG5rIiwiYWRibG9ja2VyU3RhdHVzIjp7IkRJU1BMQVkiOiJkaXNhYmxlZCIsIkZBQ0VCT09LIjoiZGlzYWJsZWQiLCJUV0lUVEVSIjoiZGlzYWJsZWQiLCJSRURESVQiOiJkaXNhYmxlZCIsIlBJTlRFUkVTVCI6ImRpc2FibGVkIiwiSU5TVEFHUkFNIjoiZGlzYWJsZWQiLCJMSU5LRURJTiI6ImRpc2FibGVkIiwiQ09ORklHIjoiZGlzYWJsZWQifSwidmVyc2lvbiI6IjIuMC4xNiIsInNjb3JlIjoyMDAxNn1d" class="webkit chrome iceblue" style="">
+<div id="b78P_" style="width:100%;height:100%;" class="z-page" bis_skin_checked="1"><div style="display:none" id="b78P0" bis_skin_checked="1">&nbsp;<style id="b78P0-real" style="display:none;" class="z-style">
+		.z-window-content {padding: 0px;} .link {text-decoration:
+		underline; padding: 5px; font-weight: 800; font-family:
+		system-ui;}
+
+		.resultBtn{ background: #016ABC; color: #fff; border: 1px solid
+		#eee; border-radius: 20px; box-shadow: 5px 5px 5px #eee;
+		text-shadow: none; }
+
+		.panel-title{ text-align: center; }
+
+		
+
+		.returnBtn{ padding:2px 0px; border:0px solid;
+
+
+		}
+
+		.textStyle{ color: #0C9793; font-family: "tahoma"; font-weight:
+		bold; font-size: 15px; } .messageUser{ font-weight: bold;
+		font-size: 16px; font-family: "tahoma"; } .malpracticeStyle{
+		padding-top:40%; display: relative; height: max-content;
+		margin-top:auto; margin-left: auto; margin-right: auto; }
+		.tableHead{ background-color: #04AA6D; color: white; }
+		.labelStyle{ font-weight: 900; font-size: 20px; font-family: 'Times New Roman', serif; }
+
+		@media only screen and (max-width: 600px) { .sizeStyleBackground
+		{ width: 100%; display: table; background-size: cover;
+		background: url(../assets/images/bg.png); }
+
+		.inputStyle{ width: 200px; } .sdmsLogo{ display: none; }
+		.percentage {display:none; }
+
+		.weighted { display:flex; }
+
+		} .formula{ height: 40px; padding-left: 15px; width: 600px;
+		max-width: calc(100% - 20px); margin: 0 auto; padding: 0 10px; }
+		.tableDetail{ border: 1px solid black; padding: 10px;
+		justify-content: center; text-align: center; align-items:
+		center; } .heading{ background-color: yellow; }
+
+
+
+		@media only screen and (min-width: 600px) { .weighted {
+		display:none; } }
+		
+
+	</style></div> <div id="b78P1" style="width: 100%; height: 739px;" class="body-window z-window z-window-noborder z-window-noheader z-window-embedded" bis_skin_checked="1"><div id="b78P1-cave" class="z-window-content" bis_skin_checked="1" style="height: 957px;"><div id="b78P2" class="login-bg z-div" bis_skin_checked="1" style="display: none;"> <div id="b78P3" class="wrapper-page z-div" bis_skin_checked="1"> <div id="b78P4" class="panel panel-default panel-fill login_form z-div" bis_skin_checked="1"> <span id="b78P5" class="z-html"> <div class="sdmsLogo" style="margin-bottom: -3em;" bis_skin_checked="1"> <img src="./dnz_files/logo_blue.png" style="width: 200px; height: 100px; float:left;"> </div> <div class="sdmsLogo" style="margin-bottom: -3em;" bis_skin_checked="1"> <img src="./dnz_files/nesa_logo.png" style="width: 300px; height: 100px; padding-left:25;%"> </div> </span> <div id="b78P6" class="panel-body z-div" bis_skin_checked="1"> <div id="b78P7" class="z-tabbox z-tabbox-top" bis_skin_checked="1" style="width: 100%;"><div id="b78P8" class="z-tabs" bis_skin_checked="1" style="width: 408px;"><ul id="b78P8-cave" class="z-tabs-content"><li id="b78P9" class="z-tab"><a id="b78P9-cave" class="z-tab-content"><span id="b78P9-cnt" class="z-tab-text" title="Ordinary Level">Ordinary Level</span></a></li><li id="b78Pa" class="z-tab z-tab-selected"><a id="b78Pa-cave" class="z-tab-content"><span id="b78Pa-cnt" class="z-tab-text" title=" Advanced Level/TTC/TVET-TSS"> Advanced Level/TTC/TVET-TSS</span></a></li></ul></div><div id="b78Pb" class="z-tabpanels" bis_skin_checked="1"><div id="b78Pc" class="z-tabpanel" bis_skin_checked="1" style="display: none;"> <div id="b78Pd" class="panel-heading z-div" bis_skin_checked="1"> <span id="b78Pe" class="z-html"> <h3 class="panel-title">
+												NATIONAL EXAMINATION
+												RESULTS
+											</h3> </span></div> <div id="b78Pf" class="form-horizontal m-t-20 z-div" bis_skin_checked="1"> <div id="b78Pg" class="form-group z-div" bis_skin_checked="1"> <div id="b78Ph" class="col-xs-12 inputTextBtn z-div" bis_skin_checked="1"> <span id="b78Pi" class="sas-form-label z-label">
+													Enter the Index
+													Number
+												</span> <span id="b78Pj" class="text-danger z-label">
+													*
+												</span> <input id="b78Pk" class="form-control z-textbox" value="" type="text" size="60" placeholder="0000PR000000"></div></div> <div id="b78Pl" class="form-group text-center m-t-40 z-div" bis_skin_checked="1"> <div id="b78Pm" class="col-xs-12 z-div" bis_skin_checked="1"> <button type="button" id="b78Pn" class="resultBtn z-button">
+													GET RESULTS
+												</button></div></div></div></div><div id="b78Po" class="z-tabpanel" bis_skin_checked="1" style="display: block;"> <div id="b78Pp" class="panel-heading z-div" bis_skin_checked="1"> <span id="b78Pq" class="z-html"> <h3 class="panel-title">
+												NATIONAL EXAMINATION
+												RESULTS
+											</h3> </span></div> <div id="b78Pr" class="form-horizontal m-t-20 z-div" bis_skin_checked="1"> <div id="b78Ps" class="form-group z-div" bis_skin_checked="1"> <div id="b78Pt" class="col-xs-12 inputTextBtn z-div" bis_skin_checked="1"> <span id="b78Pu" class="sas-form-label z-label">
+													Enter the Index
+													Number
+												</span> <span id="b78Pv" class="text-danger z-label">
+													*
+												</span> <input id="b78Pw" class="form-control z-textbox" value="" type="text" size="60" placeholder="XXXXXCODEXXXXX"></div></div> <div id="b78Px" class="form-group z-div" bis_skin_checked="1"> <div id="b78Py" class="col-xs-12 inputTextBtn z-div" bis_skin_checked="1"> <span id="b78Pz" class="sas-form-label z-label">
+													National Identity
+												</span> <input id="b78P_0" class="form-control z-textbox" value="" type="text" size="60" placeholder="119980XXXXXXXXXXX"></div></div> <div id="b78P00" class="form-group text-center m-t-40 z-div" bis_skin_checked="1"> <div id="b78P10" class="col-xs-12 z-div" bis_skin_checked="1"> <button type="button" id="b78P20" class="resultBtn z-button">
+													GET RESULTS
+												</button></div></div></div></div></div><div id="b78P7-left" class="z-tabbox-icon z-tabbox-left-scroll" bis_skin_checked="1" style="height: 35px;"><i class="z-icon-chevron-left"></i></div><div id="b78P7-right" class="z-tabbox-icon z-tabbox-right-scroll" bis_skin_checked="1" style="height: 35px;"><i class="z-icon-chevron-right"></i></div></div></div></div> <div id="b78P30" class="z-include" bis_skin_checked="1"><div id="b78P40" class="footer text-center z-div z-div" bis_skin_checked="1"> <div id="b78P50" class="container z-div z-div" bis_skin_checked="1"> <div id="b78P60" class="row text-center z-div z-div" bis_skin_checked="1"> <div id="b78P70" class="col-sm-12 z-div z-div" bis_skin_checked="1"> <span id="b78P80" class="z-label z-span"><span id="b78P90" class="z-label">
+						Copyright © 2018-2023, Government of Rwanda.
+						Version 2.0
+					</span></span></div></div></div></div></div></div></div><div id="b78Pa0" style="display:none" class="sizeStyleBackground z-div" bis_skin_checked="1"></div><div id="b78Pf0" style="display:none" class="sizeStyleBackground z-div" bis_skin_checked="1"></div><div id="b78Ps2" style="" class="sizeStyleBackground z-div" bis_skin_checked="1"> <div id="b78Pt2" class="topnavs z-div" bis_skin_checked="1"> <div id="b78Pu2" class="topbar-main z-div" bis_skin_checked="1"> <div id="b78Pv2" class="container z-div" bis_skin_checked="1"> <div id="b78Pw2" style="margin-left: 50%;" class="z-div" bis_skin_checked="1"> <span id="b78Px2" class="z-html"> <a href="https://secondary.sdms.gov.rw/public/nationalExaminationResult.zul#" class="logo"> <img src="./dnz_files/nesa_logo.png" style="width: 150px; height: 70px;"> </a> </span></div></div></div></div> <div id="b78Py2" class="sas-wrapper z-div" bis_skin_checked="1"> <div id="b78Pz2" class="z-div" bis_skin_checked="1"> <div id="b78P_3" class="row z-div" bis_skin_checked="1"> <div id="b78P03" class="col-sm-12 z-div" bis_skin_checked="1"> <div id="b78P13" class="row z-div" bis_skin_checked="1"> <div id="b78P23" class="col-lg-12 col-md-12 z-div" bis_skin_checked="1"> <div id="b78P33" class="row z-div" bis_skin_checked="1"> <div id="b78P43" class="z-div" bis_skin_checked="1"></div> <div id="b78P53" class="col-sm-12 z-div" bis_skin_checked="1"> <div id="b78P63" class="panel panel-default panel-fill z-div" bis_skin_checked="1"> <div id="b78P73" class="panel-heading z-div" bis_skin_checked="1" style="height: 37px;"> <span id="b78P83" class="z-html"> <h3 class="panel-title">
+															Advanced
+															Level
+															National
+															Examination
+															Results
+														</h3> </span></div> <div id="b78P93" class="panel-body z-div" bis_skin_checked="1" style=""> <div id="b78Pa3" class="z-separator z-separator-horizontal" bis_skin_checked="1">&nbsp;</div> <div id="b78Pb3" class="row z-div" bis_skin_checked="1"> <div id="b78Pc3" class="col-md-12 z-div" bis_skin_checked="1"> <div id="b78Pd3" class="form-group z-div" bis_skin_checked="1"> <span id="b78Pe3" class="labelStyle z-label">
+																	Candidate
+																	Names:
+																</span> <span id="b78Pf3" class="textStyle z-label">INYAMIBWA Denyse</span></div> <div id="b78Pg3" class="form-group z-div" bis_skin_checked="1"> <span id="b78Ph3" class="labelStyle z-label">
+																	Registration
+																	Number
+																	:
+																</span> <span id="b78Pi3" class="textStyle z-label">310922LE0372024</span></div> <div id="b78Pj3" class="form-group z-div" bis_skin_checked="1"> <span id="b78Pk3" class="labelStyle z-label">
+																	Combination:
+																</span> <span id="b78Pl3" class="textStyle z-label">Languages Education</span></div> <div id="b78Pm3" class="form-group z-div" bis_skin_checked="1"> <span id="b78Pn3" class="labelStyle z-label">
+																	School
+																	attended:
+																</span> <span id="b78Po3" class="textStyle z-label">TTC RUBENGERA</span></div> <div id="b78Pp3" class="form-group z-div" bis_skin_checked="1"> <span id="b78Pq3" class="labelStyle z-label">
+																	School
+																	Year:
+																</span> <span id="b78Pr3" class="textStyle z-label">2023/2024</span></div> <div id="b78Ps3" class="form-group z-div" bis_skin_checked="1"> <span id="b78Pt3" class="labelStyle z-label">
+																	Mention:
+																</span> <span id="b78Pu3" class="textStyle z-label">PASS</span></div></div></div> <div id="b78Pv3" class="row z-div" bis_skin_checked="1"> <div id="b78Pw3" class="col-md-12 z-div" bis_skin_checked="1"> <div id="b78Px3" class="gridAvanced z-grid" bis_skin_checked="1"><div id="b78Px3-head" class="z-grid-header" bis_skin_checked="1" style="width: 1511px;"><table id="b78Px3-headtbl" width="100%" style="table-layout:fixed;"><colgroup id="b78Pz3-hdfaker"><col id="b78P_4-hdfaker" style=""><col id="b78P14-hdfaker" style=""><col id="b78P34-hdfaker" style=""><col id="b78P54-hdfaker" style=""><col id="b78Pz3-hdfaker-bar" style="width: 0.1px;"></colgroup><tbody id="b78Px3-headrows"><tr id="b78Pz3" class="z-columns" style="text-align: left;"><th id="b78P_4" style="text-align:center;" class="tableHead z-column"><div id="b78P_4-cave" class="z-column-content" style="text-align:center;" bis_skin_checked="1"><div class="z-column-sorticon" bis_skin_checked="1"><i id="b78P_4-sort-icon"></i></div><span id="b78P04" class="z-label">
+																		Subject
+																	</span></div></th><th id="b78P14" style="text-align:center;" class="tableHead z-column"><div id="b78P14-cave" class="z-column-content" style="text-align:center;" bis_skin_checked="1"><div class="z-column-sorticon" bis_skin_checked="1"><i id="b78P14-sort-icon"></i></div><span id="b78P24" class="z-label">
+																		Subject
+																		Weight
+																	</span></div></th><th id="b78P34" style="text-align:center;" class="tableHead z-column"><div id="b78P34-cave" class="z-column-content" style="text-align:center;" bis_skin_checked="1"><div class="z-column-sorticon" bis_skin_checked="1"><i id="b78P34-sort-icon"></i></div><span id="b78P44" class="z-label">
+																		Raw
+																		Marks(%)
+																	</span></div></th><th id="b78P54" style="text-align:center;" class="tableHead z-column"><div id="b78P54-cave" class="z-column-content" style="text-align:center;" bis_skin_checked="1"><div class="z-column-sorticon" bis_skin_checked="1"><i id="b78P54-sort-icon"></i></div><span id="b78P64" class="z-label">
+																		Grade
+																	</span></div></th><th id="b78Pz3-bar" class="z-columns-bar"></th></tr></tbody></table></div><div class="z-grid-header-border" bis_skin_checked="1"></div><div id="b78Px3-body" class="z-grid-body" bis_skin_checked="1" style="overflow: auto; width: 1511px;"><table id="b78Px3-cave" width="100%" style="table-layout:fixed;"><colgroup id="b78Pz3-bdfaker"><col id="b78P_4-bdfaker" style=""><col id="b78P14-bdfaker" style=""><col id="b78P34-bdfaker" style=""><col id="b78P54-bdfaker" style=""></colgroup><tbody id="b78Pb6" class="z-rows"><tr id="b78P28" class="tableDetail z-row"><td id="b78P38-chdextr" class="z-row-inner"><div id="b78P38-cell" class="z-row-content" bis_skin_checked="1"><span id="b78P38" class="z-label" style="width: 349px;">Entrepreneurship</span></div></td><td id="b78P48-chdextr" class="z-row-inner"><div id="b78P48-cell" class="z-row-content" bis_skin_checked="1"><span id="b78P48" class="z-label" style="width: 350px;">6</span></div></td><td id="b78P58-chdextr" class="z-row-inner"><div id="b78P58-cell" class="z-row-content" bis_skin_checked="1"><span id="b78P58" class="z-label" style="width: 350px;">77</span></div></td><td id="b78P68-chdextr" class="z-row-inner"><div id="b78P68-cell" class="z-row-content" bis_skin_checked="1"><span id="b78P68" class="z-label" style="width: 349px;">B</span></div></td></tr><tr id="b78P78" class="tableDetail z-row z-grid-odd"><td id="b78P88-chdextr" class="z-row-inner"><div id="b78P88-cell" class="z-row-content" bis_skin_checked="1"><span id="b78P88" class="z-label" style="width: 349px;">French</span></div></td><td id="b78P98-chdextr" class="z-row-inner"><div id="b78P98-cell" class="z-row-content" bis_skin_checked="1"><span id="b78P98" class="z-label" style="width: 350px;">21</span></div></td><td id="b78Pa8-chdextr" class="z-row-inner"><div id="b78Pa8-cell" class="z-row-content" bis_skin_checked="1"><span id="b78Pa8" class="z-label" style="width: 350px;">56</span></div></td><td id="b78Pb8-chdextr" class="z-row-inner"><div id="b78Pb8-cell" class="z-row-content" bis_skin_checked="1"><span id="b78Pb8" class="z-label" style="width: 349px;">S</span></div></td></tr><tr id="b78Pc8" class="tableDetail z-row"><td id="b78Pd8-chdextr" class="z-row-inner"><div id="b78Pd8-cell" class="z-row-content" bis_skin_checked="1"><span id="b78Pd8" class="z-label" style="width: 349px;">Creative performance (Music &amp; Fine Arts)</span></div></td><td id="b78Pe8-chdextr" class="z-row-inner"><div id="b78Pe8-cell" class="z-row-content" bis_skin_checked="1"><span id="b78Pe8" class="z-label" style="width: 350px;">12</span></div></td><td id="b78Pf8-chdextr" class="z-row-inner"><div id="b78Pf8-cell" class="z-row-content" bis_skin_checked="1"><span id="b78Pf8" class="z-label" style="width: 350px;">64</span></div></td><td id="b78Pg8-chdextr" class="z-row-inner"><div id="b78Pg8-cell" class="z-row-content" bis_skin_checked="1"><span id="b78Pg8" class="z-label" style="width: 349px;">E</span></div></td></tr><tr id="b78Ph8" class="tableDetail z-row z-grid-odd"><td id="b78Pi8-chdextr" class="z-row-inner"><div id="b78Pi8-cell" class="z-row-content" bis_skin_checked="1"><span id="b78Pi8" class="z-label" style="width: 349px;">Teaching methods</span></div></td><td id="b78Pj8-chdextr" class="z-row-inner"><div id="b78Pj8-cell" class="z-row-content" bis_skin_checked="1"><span id="b78Pj8" class="z-label" style="width: 350px;">4</span></div></td><td id="b78Pk8-chdextr" class="z-row-inner"><div id="b78Pk8-cell" class="z-row-content" bis_skin_checked="1"><span id="b78Pk8" class="z-label" style="width: 350px;">84</span></div></td><td id="b78Pl8-chdextr" class="z-row-inner"><div id="b78Pl8-cell" class="z-row-content" bis_skin_checked="1"><span id="b78Pl8" class="z-label" style="width: 349px;">A</span></div></td></tr><tr id="b78Pm8" class="tableDetail z-row"><td id="b78Pn8-chdextr" class="z-row-inner"><div id="b78Pn8-cell" class="z-row-content" bis_skin_checked="1"><span id="b78Pn8" class="z-label" style="width: 349px;">Teaching practice</span></div></td><td id="b78Po8-chdextr" class="z-row-inner"><div id="b78Po8-cell" class="z-row-content" bis_skin_checked="1"><span id="b78Po8" class="z-label" style="width: 350px;">8</span></div></td><td id="b78Pp8-chdextr" class="z-row-inner"><div id="b78Pp8-cell" class="z-row-content" bis_skin_checked="1"><span id="b78Pp8" class="z-label" style="width: 350px;">96</span></div></td><td id="b78Pq8-chdextr" class="z-row-inner"><div id="b78Pq8-cell" class="z-row-content" bis_skin_checked="1"><span id="b78Pq8" class="z-label" style="width: 349px;">A</span></div></td></tr><tr id="b78Pr8" class="tableDetail z-row z-grid-odd"><td id="b78Ps8-chdextr" class="z-row-inner"><div id="b78Ps8-cell" class="z-row-content" bis_skin_checked="1"><span id="b78Ps8" class="z-label" style="width: 349px;">Kinyarwanda</span></div></td><td id="b78Pt8-chdextr" class="z-row-inner"><div id="b78Pt8-cell" class="z-row-content" bis_skin_checked="1"><span id="b78Pt8" class="z-label" style="width: 350px;">17</span></div></td><td id="b78Pu8-chdextr" class="z-row-inner"><div id="b78Pu8-cell" class="z-row-content" bis_skin_checked="1"><span id="b78Pu8" class="z-label" style="width: 350px;">71</span></div></td><td id="b78Pv8-chdextr" class="z-row-inner"><div id="b78Pv8-cell" class="z-row-content" bis_skin_checked="1"><span id="b78Pv8" class="z-label" style="width: 349px;">C</span></div></td></tr><tr id="b78Pw8" class="tableDetail z-row"><td id="b78Px8-chdextr" class="z-row-inner"><div id="b78Px8-cell" class="z-row-content" bis_skin_checked="1"><span id="b78Px8" class="z-label" style="width: 349px;">Kiswahili</span></div></td><td id="b78Py8-chdextr" class="z-row-inner"><div id="b78Py8-cell" class="z-row-content" bis_skin_checked="1"><span id="b78Py8" class="z-label" style="width: 350px;">15</span></div></td><td id="b78Pz8-chdextr" class="z-row-inner"><div id="b78Pz8-cell" class="z-row-content" bis_skin_checked="1"><span id="b78Pz8" class="z-label" style="width: 350px;">77</span></div></td><td id="b78P_9-chdextr" class="z-row-inner"><div id="b78P_9-cell" class="z-row-content" bis_skin_checked="1"><span id="b78P_9" class="z-label" style="width: 349px;">B</span></div></td></tr><tr id="b78P09" class="tableDetail z-row z-grid-odd"><td id="b78P19-chdextr" class="z-row-inner"><div id="b78P19-cell" class="z-row-content" bis_skin_checked="1"><span id="b78P19" class="z-label" style="width: 349px;">Foundations of Education</span></div></td><td id="b78P29-chdextr" class="z-row-inner"><div id="b78P29-cell" class="z-row-content" bis_skin_checked="1"><span id="b78P29" class="z-label" style="width: 350px;">16</span></div></td><td id="b78P39-chdextr" class="z-row-inner"><div id="b78P39-cell" class="z-row-content" bis_skin_checked="1"><span id="b78P39" class="z-label" style="width: 350px;">67</span></div></td><td id="b78P49-chdextr" class="z-row-inner"><div id="b78P49-cell" class="z-row-content" bis_skin_checked="1"><span id="b78P49" class="z-label" style="width: 349px;">D</span></div></td></tr><tr id="b78P59" class="tableDetail z-row"><td id="b78P69-chdextr" class="z-row-inner"><div id="b78P69-cell" class="z-row-content" bis_skin_checked="1"><span id="b78P69" class="z-label" style="width: 349px;">English</span></div></td><td id="b78P79-chdextr" class="z-row-inner"><div id="b78P79-cell" class="z-row-content" bis_skin_checked="1"><span id="b78P79" class="z-label" style="width: 350px;">21</span></div></td><td id="b78P89-chdextr" class="z-row-inner"><div id="b78P89-cell" class="z-row-content" bis_skin_checked="1"><span id="b78P89" class="z-label" style="width: 350px;">64.6</span></div></td><td id="b78P99-chdextr" class="z-row-inner"><div id="b78P99-cell" class="z-row-content" bis_skin_checked="1"><span id="b78P99" class="z-label" style="width: 349px;">E</span></div></td></tr></tbody><tbody class="z-grid-emptybody"><tr><td id="b78Px3-empty" style="display:none"><div id="b78Px3-empty-content" class="z-grid-emptybody-content" bis_skin_checked="1">No record found in the system.</div></td></tr></tbody></table></div><div id="b78Px3-pgib" class="z-grid-paging-bottom" bis_skin_checked="1"><div name="b78Py3" id="b78Py3" style="display:none;" class="z-paging" bis_skin_checked="1"><ul><li style=""><a name="b78Py3-first" class="z-paging-button z-paging-first" href="javascript:;" disabled="disabled" bis_skin_checked="1"><i class="z-paging-icon z-icon-angle-double-left"></i></a></li><li><a name="b78Py3-prev" class="z-paging-button z-paging-previous" href="javascript:;" disabled="disabled" bis_skin_checked="1"><i class="z-paging-icon z-icon-angle-left"></i></a></li><li><input name="b78Py3-real" class="z-paging-input" type="text" value="1" size="3"><span class="z-paging-text"> / 1</span></li><li><a name="b78Py3-next" class="z-paging-button z-paging-next" href="javascript:;" disabled="disabled" bis_skin_checked="1"><i class="z-paging-icon z-icon-angle-right"></i></a></li><li style=""><a name="b78Py3-last" class="z-paging-button z-paging-last" href="javascript:;" disabled="disabled" bis_skin_checked="1"><i class="z-paging-icon z-icon-angle-double-right"></i></a></li></ul><div class="z-paging-info" bis_skin_checked="1"><span id="b78Py3-info">[ 1 - 9 / 9 ]</span></div></div></div></div></div> <div id="b78P74" style="padding-top:20px; padding-bottom: 10px;" class="col-md-12 z-div" bis_skin_checked="1"> <span id="b78P84" class="labelStyle z-label">
+																Number
+																of
+																subjects:
+															</span> <span id="b78P94" class="textStyle z-label">9</span></div> <div id="b78Pa4" class="row z-div" bis_skin_checked="1"> <div id="b78Pb4" class="z-div" bis_skin_checked="1"> <div id="b78Pc4" class="z-div" bis_skin_checked="1"> <span id="b78Pd4" class="z-html"> <img src="./dnz_files/newformula.png" class="formula"> </span></div></div></div> <div id="b78Pe4" style="padding-left:10px;" class="percentage z-div" bis_skin_checked="1"> <span id="b78Pf4" style="padding-top:100px;" class="labelStyle z-label">
+																Weighted
+																Percentage=
+															</span> <span id="b78Pg4" style="text-decoration: underline;" class="textStyle z-label">(77.0 x 6)+(56.0 x 21)+(64.0 x 12)+(84.0 x 4)+(96.0 x 8)+(71.0 x 17)+(77.0 x 15)+(67.0 x 16)+(64.6 x 21)</span> <span id="b78Ph4" style="margin-top:100px;" class="textStyle z-label">=</span> <span id="b78Pi4" class="textStyle z-label">69.18</span> <span id="b78Pj4" class="textStyle z-label">%</span> <div id="b78Pk4" class="z-div" bis_skin_checked="1"> <span id="b78Pl4" style="padding-left:300px;" class="textStyle z-label">6+21+12+4+8+17+15+16+21</span></div></div></div> <div id="b78Pm4" class="z-separator z-separator-horizontal" bis_skin_checked="1">&nbsp;</div> <div id="b78Pn4" style="padding-top:15px;padding-left:-10px;" class="weighted z-div" bis_skin_checked="1"> <span id="b78Po4" style="font-weight: bold;" class="labelStyle z-label">
+															Weighted
+															Percentage:
+														</span> <span id="b78Pp4" class="textStyle z-label">69.18</span> <span id="b78Pq4" class="textStyle z-label">
+															%
+														</span></div> <div id="b78Pr4" class="z-separator z-separator-horizontal" bis_skin_checked="1">&nbsp;</div> <div id="b78Ps4" style="padding-left:-10px;" class="col-sm-2 z-div" bis_skin_checked="1"> <div id="b78Pt4" class="form-group z-div" bis_skin_checked="1"> <div id="b78Pu4" class="z-div" bis_skin_checked="1"> <span id="b78Pv4" class="labelStyle z-label">
+																	Download
+																	Result
+																	Slip
+																</span> <button type="button" id="b78Pw4" class="btn btn-xs btn-default btn-sas pull-right m-r-5 z-button" title="Download result Slip"><i class="fa fa-cloud-download fa-color-success"></i> </button></div></div></div></div></div></div></div></div></div></div></div></div></div></div><div id="b78Px4" style="display:none" class="sizeStyleBackground z-div" bis_skin_checked="1"></div></div></div></div>
+
+<noscript>
+<div class="noscript"><p>Sorry, JavaScript must be enabled.<br/>Change your browser options, then <a href="">try again</a>.</p></div>
+</noscript>
+
+
+
+<div bis_skin_checked="1" style="left: -1000px; top: -1000px; position: absolute; visibility: hidden; border: none; white-space: normal; word-spacing: 0px; direction: ltr; text-overflow: clip; text-transform: none; text-shadow: none; text-indent: 0px; text-decoration: none solid rgb(51, 51, 51); text-align: start; line-height: 20px; letter-spacing: 0px; font-style: normal; font-weight: 400; font-size: 14px; font-family: &quot;Segoe UI&quot;, SegoeUI, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; display: none;"></div></body></html>
