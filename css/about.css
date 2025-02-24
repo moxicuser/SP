@@ -1,0 +1,33 @@
+.about_achievements{
+    margin-top: 3rem;
+}
+
+.container_achievements-container{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 5rem;
+}
+
+.about_achievements-right{
+    margin: 1.6rem 0 2.5rem;
+}
+
+.achievement_cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.achievement_card {
+    background-color: var(--color-bg1);
+    padding: 1.6rem;
+    border-radius: 1rem;
+    align-items: center;
+    transition: var(--transition);
+}
+
+.achievement_card:hover {
+    background-color: var(--color-bg2);
+    box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.3);
+}
+
